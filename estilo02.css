@@ -1,0 +1,17 @@
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    border: 2px solid;
+    border-radius: 12px;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: rgb(55, 55, 124);
+}
+tr:nth-child(odd){
+    background-color: #facfac;
+}
